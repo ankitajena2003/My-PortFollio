@@ -76,7 +76,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={profileImage}
+              src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg"
               alt="Ankita Jena"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
