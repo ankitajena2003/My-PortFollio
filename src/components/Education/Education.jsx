@@ -5,13 +5,13 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-3"
+      className="py-24 pb-24 px-[95px] font-sans bg-skills-gradient clip-path-custom-3"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-semibold">
+        <p className="text-gray-400 mt-4 text-xl font-semibold">
           With a strong foundation in Physics during my B.Sc., I transitioned to the tech world by pursuing an MCA, 
           driven by my interest in programming and software technologies.
         </p>
@@ -30,14 +30,19 @@ const Education = () => {
               index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"
             }`}
           >
-            {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
-              <img
-                src={edu.img}
-                alt={edu.school}
-                className="w-full h-full object-cover rounded-full"
-              />
-            </div>
+            {/* Timeline Circle - hidden on mobile/tablet, shown on large screens */}
+            <div className="hidden lg:flex lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 z-10">
+  <div className="w-16 h-16 bg-gray-400 border-4 border-[#8245ec] rounded-full flex justify-center items-center">
+    <img
+      src={edu.img}
+      alt={edu.school}
+      className="w-full h-full object-cover rounded-full"
+    />
+  </div>
+</div>
+
+
+
 
             {/* Content Section */}
             <div

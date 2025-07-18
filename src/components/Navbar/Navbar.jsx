@@ -31,7 +31,6 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    // { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
     { id: "contact", label: "Contact" },
@@ -39,7 +38,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
+      className={`fixed top-0 w-full z-50 transition duration-300 px-[95px] ${
         isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
       }`}
     >
@@ -54,7 +53,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:flex space-x-12 text-gray-300 text-xl">
           {menuItems.map((item) => (
             <li
               key={item.id}
@@ -62,7 +61,10 @@ const Navbar = () => {
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
+              <button
+                onClick={() => handleMenuItemClick(item.id)}
+                className="font-bold"
+              >
                 {item.label}
               </button>
             </li>
@@ -116,7 +118,10 @@ const Navbar = () => {
                   activeSection === item.id ? "text-[#8245ec]" : ""
                 }`}
               >
-                <button onClick={() => handleMenuItemClick(item.id)}>
+                <button
+                  onClick={() => handleMenuItemClick(item.id)}
+                  className="font-bold"
+                >
                   {item.label}
                 </button>
               </li>

@@ -13,15 +13,12 @@ const Work = () => {
   };
 
   return (
-    <section
-      id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
-    >
+    <section id="work" className="py-24 pb-24 px-[95px] font-sans relative">
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-semibold">
+        <p className="text-gray-400 mt-4 text-xl font-semibold">
           A collection of projects that reflect my learning journey and passion for web development.
           Each project highlights my ability to solve problems and build functional, user-friendly applications.
         </p>
@@ -59,6 +56,17 @@ const Work = () => {
                   </span>
                 ))}
               </div>
+
+              {/* ✅ Updated See Button to open modal */}
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleOpenModal(project);
+                }}
+                className="inline-block mt-2 px-6 py-2 text-sm font-semibold text-white rounded-full bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90 transition"
+              >
+                See →
+              </button>
             </div>
           </div>
         ))}

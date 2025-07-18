@@ -125,50 +125,51 @@ export const SkillsInfo = [
     id: 0,
     title: 'Apple Website Clone',
     description:
-      'A visually similar clone of the Apple website, showcasing clean layout, product sections, and responsiveness.',
+      'A visually similar clone of the Apple website, featuring a clean layout, product sections, and responsiveness. Developed as part of a team project, where I actively contributed as a team member.',
+
     image: project1Logo,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/yourusername/apple-clone',
-    webapp: 'https://your-apple-clone.netlify.app/',
+    github: 'https://github.com/Biswojit143/Qlith--Apple-Website-Clone/tree/main/images',
+    webapp: 'https://qlithbiswo.netlify.app/',
   },
-  {
+    {
     id: 1,
     title: 'Spline UI Clone',
-    description: "Recreated a modern and animated user interface inspired by Spline's homepage using HTML and CSS.",
+    description: "A solo project recreating Spline's modern, animated homepage UI using HTML and CSS, highlighting clean design and animation techniques.",
 
     image: project2Logo,
     tags: ['HTML', 'CSS'],
-    github: 'https://github.com/yourusername/spline-clone',
-    webapp: 'https://your-spline-clone.netlify.app/',
+    github: 'https://github.com/ankitajena2003/Spline-UI-Clone',
+    webapp: 'https://splendid-marzipan-b784f0.netlify.app/',
   },
   {
     id: 2,
     title: 'Nexcent UI Design',
     description:
-      'Designed a professional and responsive layout similar to Nexcent’s site using HTML and CSS.',
+      'Designed a professional and responsive layout inspired by Nexcent’s website using HTML and CSS. This solo project highlights my skills in layout structuring and responsive design.',
     image: project3Logo,
     tags: ['HTML', 'CSS'],
-    github: 'https://github.com/yourusername/nexcent-ui',
-    webapp: 'https://your-nexcent-ui.netlify.app/',
+    github: 'https://github.com/ankitajena2003/Nexcent-UI-Design',
+    webapp: 'https://nexcent-ul-clone.netlify.app/',
   },
   {
     id: 3,
     title: 'Movies-House',
     description:
-      'A movie web app built with React and Tailwind CSS that allows users to search and view details of various movies.',
+      'Solo project: A movie web app built with React and Tailwind CSS, featuring movie search, details view, and responsive design.',
     image: project4Logo,
     tags: ['React', 'Tailwind CSS'],
-    github: 'https://github.com/yourusername/movies-house',
-    webapp: 'https://movies-house.netlify.app/',
+    github: 'https://github.com/ankitajena2003/Movies-House',
+    webapp: 'https://movies-house.vercel.app/',
   },
   {
     id: 4,
     title: 'Boat Rain Animation Web',
     description:
-      'A creative web animation featuring a boat and rainfall effects, demonstrating CSS and JavaScript skills.',
+      'Solo project: A creative web animation showcasing a boat with rainfall effects, built using HTML, CSS, and JavaScript to demonstrate animation and DOM manipulation skills.',
     image: project5Logo,
     tags: ['HTML', 'CSS'],
-    github: 'https://github.com/yourusername/boat-rain-animation',
+    github: 'https://github.com/ankitajena2003/Boat-Rain-Animation--Web',
     webapp: 'https://boat-rain-animation.netlify.app/',
   },
 ];

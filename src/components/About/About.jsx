@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="py-4 px-[7vw] md:px-[95px] font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
@@ -51,14 +51,15 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/16YImTQ8HD9fJaWc9WztvlM1mL_W-ClCQ/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1BH8rP3sS49REr6SuidT-3FBM4Eg1ON0G/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+                  background: 'linear-gradient(90deg, #9333ea, #ec4899)', // purple-600 to pink-500
+                  boxShadow: '0 0 2px #9333ea, 0 0 2px #9333ea, 0 0 40px #9333ea',
             }}
+
           >
             DOWNLOAD CV
           </a>
